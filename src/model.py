@@ -2,8 +2,8 @@ import torch
 from torch import nn
 
 # SOURCE: 
-# - 
 # - https://pytorch.org/docs/stable/generated/torch.nn.BatchNorm2d.html
+# - https://machinelearningmastery.com/develop-your-first-neural-network-with-pytorch-step-by-step/#:~:text=Fully%20connected%20layers%20or%20dense,outputs%20as%20the%20second%20argument.
 
 class Gen_Residual_Block(nn.Module): 
     """
